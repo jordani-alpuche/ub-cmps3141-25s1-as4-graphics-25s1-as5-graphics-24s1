@@ -4,12 +4,6 @@ Student ID: 2021255646
 Date: Dec.12.25
 */
 
-/* --- Exercise 2 Color Palette (60-30-10 Rule) --- 
-   60% Dominant (Background): #f4f1ea (Warm Paper/Isabelline)
-   30% Secondary (Structure): #264653 (Charcoal Green)
-   10% Accent (Highlights):   #e76f51 (Terra Cotta)
-*/
-
 * {
   margin: 0;
   padding: 0;
@@ -100,7 +94,7 @@ figure {
 
 figure img {
   border-radius: 50%;
-  /* 10% Accent Border to frame the subject */
+ 
   border: 4px solid #e76f51; 
   max-width: 200px;
   height: auto;
@@ -127,7 +121,7 @@ form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  background: #ffffff; /* White card ensures inputs are readable */
+  background: #ffffff; 
   padding: 2rem;
   border-radius: 10px;
 
@@ -138,7 +132,6 @@ form {
 
 form label {
   font-weight: 600;
-  /* 30% Secondary Color for labels */
   color: #264653; 
   display: flex;
   flex-direction: column;
@@ -160,7 +153,6 @@ textarea {
 input[type="text"]:focus,
 textarea:focus {
   outline: none;
-  /* Accent color focus ring */
   border-color: #e76f51; 
   background: #fff;
 }
@@ -187,12 +179,12 @@ button {
 }
 
 button:hover {
-  background: #c55339; /* Darker accent for hover state */
+  background: #c55339; 
   transform: translateY(-2px);
 }
 
 footer {
-  /* 30% Secondary Color */
+
   background: #264653; 
   color: #f4f1ea;
   text-align: center;

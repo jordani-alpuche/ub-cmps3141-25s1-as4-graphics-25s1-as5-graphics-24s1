@@ -1,77 +1,83 @@
-        :root {
-            --brand-green: #B3CC1F;
-            --brand-brown: #553F2E;
-            --brand-beige: #f7ecdf;
-            --font-family: 'Museo', 'Helvetica', sans-serif;
-        }
+/* CMPS3141-HCI - AS4
+Name: Jordani Alpuche
+Collaborators:
+Date: Dec.12.25
+ */
+ 
+:root {
+    --brand-green: #B3CC1F;
+    --brand-brown: #553F2E;
+    --brand-beige: #f7ecdf;
+    --font-family: 'Museo', 'Helvetica', sans-serif;
+}
 
-        body {
-            font-family: var(--font-family);
-            background-color: var(--brand-beige);
-            color: var(--brand-brown);
-            margin: 0;
-            padding: 40px;
-            line-height: 1.6;
-        }
+body {
+    font-family: var(--font-family);
+    background-color: var(--brand-beige);
+    color: var(--brand-brown);
+    margin: 0;
+    padding: 40px;
+    line-height: 1.6;
+}
 
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background: white;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(85, 63, 46, 0.1);
-        }
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(85, 63, 46, 0.1);
+}
 
-        h1 {
-            color: var(--brand-brown);
-            border-bottom: 4px solid var(--brand-green);
-            padding-bottom: 10px;
-        }
+h1 {
+    color: var(--brand-brown);
+    border-bottom: 4px solid var(--brand-green);
+    padding-bottom: 10px;
+}
 
-        h2 {
-            margin-top: 30px;
-            color: var(--brand-green);
-        }
+h2 {
+    margin-top: 30px;
+    color: var(--brand-green);
+}
 
-        .gallery {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 40px;
-            margin-top: 20px;
-            margin-bottom: 40px;
-        }
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
 
-        .design-item {
-            border: 1px solid #ddd;
-            padding: 15px;
-            border-radius: 4px;
-            background-color: #fafafa;
-        }
+.design-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #fafafa;
+}
 
-        .design-item img {
-            width: 100%;
-            height: auto;
-            display: block;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
+.design-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 
-        .design-item p {
-            text-align: center;
-            font-weight: bold;
-            margin-top: 15px;
-            color: var(--brand-brown);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
+.design-item p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    color: var(--brand-brown);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
-        .principle-section {
-            background-color: #fcfcfc;
-            padding: 20px;
-            border-left: 5px solid var(--brand-green);
-            margin-bottom: 20px;
-        }
+.principle-section {
+    background-color: #fcfcfc;
+    padding: 20px;
+    border-left: 5px solid var(--brand-green);
+    margin-bottom: 20px;
+}
 
-        strong {
-            color: var(--brand-brown);
-        }
+strong {
+    color: var(--brand-brown);
+}

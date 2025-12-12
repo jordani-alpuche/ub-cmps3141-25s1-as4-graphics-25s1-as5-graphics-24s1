@@ -34,9 +34,9 @@ header {
 }
 
 header h1 {
-  /* IMPROVEMENT 1: Font Pairing - Using Serif for headers for contrast */
+  /* Exercise 1 IMPROVEMENT 1: Font Pairing - Using Serif for headers for contrast */
   font-family: Georgia, "Times New Roman", Times, serif; 
-  /* IMPROVEMENT 2: Scale - Increased size for better hierarchy */
+  /* Exercise 1 IMPROVEMENT 2: Scale - Increased size for better hierarchy */
   font-size: 2.5rem; 
   font-weight: 700;
   margin-bottom: 0.5rem;
@@ -81,13 +81,13 @@ h2 {
   font-size: 2rem; 
   color: #1e3a8a;
   margin-bottom: 1rem;
-  border-bottom: 1px solid #e2e8f0; /* added visual separation */
+  border-bottom: 1px solid #e2e8f0; 
   padding-bottom: 0.5rem;
 }
 
 figure {
   margin: 1rem 0 2rem 0;
-  text-align: center; /* Image for the profile have been Centered figure */
+  text-align: center; 
 }
 
 figure img {
@@ -102,7 +102,7 @@ p {
   /* Exercise 1 Improvemnt 3: Measure - Using 'ch' units meaning pixel value will change depending on the font-family and font-size applied.*/
   max-width: 65ch; 
   margin-bottom: 1.5rem;
-  font-size: 1.1rem; /* increased body text */
+  font-size: 1.1rem; 
 }
 
 ul {
@@ -140,7 +140,7 @@ textarea {
   padding: 0.75rem;
   border: 1px solid #cbd5e1;
   border-radius: 6px;
-  font-family: inherit; /* this will inherit the font from the parent element */
+  font-family: inherit; 
   font-size: 1rem;
   width: 100%;
 }
