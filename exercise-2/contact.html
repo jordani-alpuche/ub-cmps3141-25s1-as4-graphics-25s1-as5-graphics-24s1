@@ -7,10 +7,43 @@ Date: Dec.12.25
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Edit this to set page title</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Home - Jordani Alpuche</title>
+    <link rel="stylesheet" href="./styles.css"/>
   </head>
   <body>
-    <!-- your html here -->
+    <header>
+      <h1>Jordani Alpuche</h1>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./cv.html">CV</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./writeup.html">Writeup</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Send a Message</h2>
+        <!-- modify this form HTML and place wherever you want your form -->
+        <form action="https://formspree.io/f/mkgvnnak" method="POST">
+          <label>
+            Your subject:
+            <input type="text" name="subject" required />
+          </label>
+          <label>
+            Your message:
+            <textarea name="message" required></textarea>
+          </label>
+          <!-- your other form fields go here -->
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Jordani Alpuche. All rights reserved.</p>
+    </footer>
   </body>
 </html>

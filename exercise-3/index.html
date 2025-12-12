@@ -5,9 +5,69 @@ Date: Dec.12.25
  -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Exercise 3</title>
-  </head>
-  <body></body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3: Evaluating Graphics - Jordani Alpuche</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        /* Specific styles for this writeup to handle images */
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Exercise 3: Evaluating Graphics</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Principle 1 (Group A): Simplicity</h2>
+            <p><strong>Definition:</strong> Simplicity involves eliminating unnecessary elements to make the design clearer and easier to understand. It focuses on the "less is more" approach.</p>
+            
+            <div class="comparison-grid">
+                <article class="example-card card-violation">
+                    <span class="status-badge status-violation">Violates</span>
+                    <h3>Ministry of Natural Resources</h3>
+                    <a href="https://naturalresources.gov.bz/" target="_blank"><img src="./assets/mnr-clutter.png"></a>
+                    <p><strong>Analysis:</strong> This website violates simplicity by exposing the entire organizational structure (Lands, Surveys, Mining, Petroleum) in dense menus and lists immediately. There is no clear focus on the most common user tasks, making the interface feel overwhelming and "bureaucratic."</p>
+                    <p><strong>Improvement:</strong> I would simplify the homepage by hiding the organizational hierarchy behind a single "Departments" menu and prominently featuring the top 3 services citizens actually need (e.g., "Check Land Status," "Pay Land Tax," "Find a Map").</p>
+                </article>
+
+              <article class="example-card card-follows">
+                    <span class="status-badge status-follows">Follows</span>
+                    <h3>TravelBelize.org</h3>
+                    <a href="https://www.travelbelize.org/" target="_blank"><img src="./assets/travel-belize-clean.png" /> </a>
+                    <p><strong>Analysis:</strong> This website excellent follows simplicity  by using large, high-quality images and minimal text. The navigation is reduced to just a few key options (Destinations, Things to Do), allowing the user to focus without being overwhelmed.</p>
+                </article>
+            </div>
+        </section>
+
+        <section>
+            <h2>Principle 2 (Group B): Proximity</h2>
+            <p><strong>Definition:</strong> Proximity states that related items should be grouped together visually. This helps the user understand organization and relationship between elements.</p>
+            
+            <div class="comparison-grid">
+                <article class="example-card card-violation">
+                    <span class="status-badge status-violation">Violates</span>
+                    <h3>San Pedro Sun Classifieds</h3>
+                   <a href="https://www.sanpedrosun.com/classifieds/" target="_blank"><img src="./assets/sun-classifieds.png" /></a>
+                    <p><strong>Analysis:</strong> The text ads are stacked directly on top of one another with equal spacing, making it difficult to distinguish where one ad ends and the next begins (e.g., a "Job Vacancy" looks related to a "For Rent" ad).</p>
+                    <p><strong>Improvement:</strong> I would increase the vertical margin between distinct ads and perhaps add a light border or background color to each individual listing to clearly separate them.</p>
+                </article>
+
+                <article class="example-card card-follows">
+                    <span class="status-badge status-follows">Follows</span>
+                    <h3>TropicAir.com</h3>
+                   <a href="https://www.tropicair.com/" target="_blank"><img src="./assets/tropic-proximity.png"></a>
+                    <p><strong>Analysis:</strong> The flight booking tools (Search, Check-In, Status) are grouped tightly together in a dedicated bar, visually separating them from the marketing images. This signals to the user that these inputs function as a single unit.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jordani Alpuche. All rights reserved.</p>
+    </footer>
+</body>
 </html>

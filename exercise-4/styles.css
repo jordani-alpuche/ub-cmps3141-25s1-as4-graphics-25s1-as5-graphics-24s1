@@ -1,0 +1,67 @@
+/* Exercise 4 Stylesheet 
+   Theme: Warm Slate & Terra Cotta (60-30-10)
+*/
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background: #f4f1ea; 
+  color: #333;
+}
+
+body { display: flex; flex-direction: column; min-height: 100vh; }
+
+header {
+  background: #264653; 
+  color: #fff;
+  padding: 1.5rem 2rem;
+  border-bottom: 5px solid #e76f51; 
+}
+
+header h1 {
+  font-family: Georgia, serif; 
+  font-size: 2.5rem; 
+  margin-bottom: 0.5rem;
+}
+
+nav ul { list-style: none; display: flex; gap: 1.5rem; }
+nav a { text-decoration: none; color: #f4f1ea; font-weight: 500; }
+nav a:hover { color: #e76f51; border-bottom: 2px solid #e76f51; }
+
+main { flex: 1; padding: 2rem; max-width: 900px; margin: 0 auto; width: 100%; }
+section { margin-bottom: 3rem; background: #fff; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+
+h2 {
+  font-family: Georgia, serif;
+  color: #264653; 
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #cfdbd5; 
+  padding-bottom: 0.5rem;
+}
+
+h3 { color: #e76f51; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+
+ul.log-list { list-style: none; margin-left: 0; }
+ul.log-list li {
+  background: #f8fafc;
+  border-left: 4px solid #264653;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+strong { color: #264653; }
+code { background: #eee; padding: 2px 5px; border-radius: 4px; }
+
+img.screenshot {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border: 1px solid #ccc;
+  margin: 1rem 0;
+  display: block;
+}
+
+footer { background: #264653; color: #f4f1ea; text-align: center; padding: 1.5rem; margin-top: auto; }

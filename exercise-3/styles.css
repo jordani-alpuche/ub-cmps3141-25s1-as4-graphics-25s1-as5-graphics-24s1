@@ -1,0 +1,159 @@
+/* CMPS3141-HCI - AS4
+Name: Jordani Alpuche
+Student ID: 2021255646
+Date: Dec.12.25
+*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+
+  background: #f4f1ea; 
+  color: #333;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+ 
+  background: #264653; 
+  color: #fff;
+  padding: 1.5rem 2rem;
+  border-bottom: 5px solid #e76f51; 
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+
+  font-family: Georgia, "Times New Roman", Times, serif; 
+  font-size: 2.5rem; 
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1000px; 
+  margin: 0 auto;
+  width: 100%;
+}
+
+section {
+  margin-bottom: 4rem; 
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem; 
+  color: #264653;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #cfdbd5; 
+  padding-bottom: 0.5rem;
+}
+
+p {
+  max-width: 75ch; 
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem; 
+}
+
+
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.example-card {
+  background: #ffffff; 
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(38, 70, 83, 0.1); 
+  border-top: 5px solid transparent; 
+  display: flex;
+  flex-direction: column;
+}
+
+.example-card h3 {
+  font-family: Georgia, serif;
+  color: #264653;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+
+.example-card img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+
+  transition: border-color 0.3s ease;
+}
+
+.example-card img:hover {
+  border-color: #e76f51;
+}
+
+
+.status-badge {
+  align-self: flex-start;
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+
+.status-violation {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+}
+
+
+.card-violation {
+  border-top-color: #991b1b;
+}
+
+.status-follows {
+  background-color: #dcfce7;
+  color: #166534;
+  border: 1px solid #bbf7d0;
+}
+
+.card-follows {
+  border-top-color: #166534;
+}
+
+
+footer {
+  background: #264653; 
+  color: #f4f1ea;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  margin-top: auto;
+}
+

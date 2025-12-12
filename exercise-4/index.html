@@ -6,9 +6,94 @@ Date: Dec.12.25
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Exercise 4</title>
-  </head>
-  <body></body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4: Learnability of Illustrator - Jordani Alpuche</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Exercise 4: Evaluating Learnability</h1>
+       
+    </header>
+
+    <main>
+        <section>
+            <h2>Context</h2>
+            <p>
+                <strong>Previous Experience:</strong> Adobe Fireworks <br>
+                <strong>New Tool Selected:</strong> Adobe Illustrator (First Time User)
+            </p>
+            <p>
+                I am attempting to design the Corporate Identity Business Card (Exercise 5) using Adobe Illustrator. 
+                Below is a log of my experience, struggles, and the "pain points" I encountered shifting from a screen-based tool (Fireworks) to a vector/print tool (Illustrator).
+            </p>
+        </section>
+
+        <section>
+            <h2>Experience Log & Pain Points</h2>
+            <ul class="log-list">
+                <li>
+                    <strong>Struggle 1: Changing Page Orientation</strong><br>
+                    <em>Pain Point:</em> I couldn't find a simple "Canvas Size" or "Page Properties" menu like in Fireworks. I expected to just click the canvas and change it to Landscape.<br>
+                    <em>Solution:</em> I had to search online and found a video (<a href="https://www.youtube.com/watch?v=KT2PDeYiKiY" target="_blank">YouTube Guide</a>) that explained I needed to use the <strong>Artboard Tool</strong> (Shift+O) or the Properties panel to rotate the page. This was not intuitive.
+                    <img src="images/bk.png" class="screenshot">
+                </li>
+
+                <li>
+                    <strong>Struggle 2: Magic Wand Tool Behavior</strong><br>
+                    <em>Pain Point:</em> In Fireworks, the Magic Wand selects pixels based on color. In Illustrator, I clicked it expecting the same, but it selected <em>entire objects</em> that shared the same fill color/attributes across the whole document. It works on vector attributes, not pixels, which was confusing at first.
+                    <em>Discovery:</em> After some trial and error, I learned that the Magic Wand in Illustrator is for selecting objects with similar attributes (fill color, stroke color, opacity) vs adobe firework, selecting pixels in a bitmap environment, often used for background removal.
+                    <img src="images/magic_wand.png"  class="screenshot">
+                </li>
+
+                <li>
+                    <strong>Struggle 3: Vectorizing Images (Image Trace)</strong><br>
+                    <em>Pain Point:</em> I needed to convert the raster logo to vectors. In Fireworks, I usually have to trace manually or use external tools. I wasn't sure if Illustrator could do it automatically.
+                    <em>Discovery:</em> I discovered the <strong>"Image Trace"</strong> feature, which automatically vectorized the image. This was a huge advantage over Fireworks, which (to my knowledge) doesn't have a native auto-trace feature this powerful.
+                    <img src="./images/image_trace.png" class="screenshot">
+                </li>
+
+                 <li>
+                    <strong>Struggle 4: Zooming and Panning</strong><br>
+                    <em>Pain Point:</em> In Fireworks, holding down the ctrl key while scrolling zooms in and out. In Illustrator, this behavior is different, and I had to learn to use the Zoom Tool (Z) or the navigator panel.
+                    <em>Discovery:</em> I discovered the <strong>zooming </strong> feature, is not the same as fireworks which made the learning curve a bit steeper as i am used to the ctrl + scroll zooming feature. CTRL + Scrool in Illustrator move 
+                    the canvas left and right instead of zooming in and out.
+                   <img src="./images/zoom.png" class="screenshot">
+                </li>
+
+            </ul>
+        </section>
+
+        <section>
+            <h2>Comparison: Fireworks vs. Illustrator</h2>
+            
+            <h3>What was Harder?</h3>
+            <p>
+                <strong>Navigation and Setup:</strong> Simple tasks like rotating the page (Orientation) required watching a tutorial. The interface separates "Artboards" from "Document Setup," whereas Fireworks just has a Canvas.
+                <strong>Selection:</strong> The difference between selecting an object and selecting points (Direct Selection) is strict in Illustrator, whereas Fireworks is more forgiving.
+            </p>
+
+            <h3>What was Easier?</h3>
+            <p>
+                <strong>Vectorizing:</strong> The <strong>Image Trace</strong> feature made converting almost an image into a scalable vector instant. In Fireworks, this would have been a manual process.
+            </p>
+        </section>
+
+        <section>
+            <h2>Learnability Assessment</h2>
+            <p><strong>Time Taken:</strong> 2 hours.</p>
+            
+            <p><strong>Could it be more learnable?</strong></p>
+            <p>
+                Yes. For a user coming from other Adobe software, the terminology is inconsistent (Artboards vs Canvas). The tool icons (like Magic Wand) look the same but behave completely differently (Vector Attribute selection vs Pixel selection), which leads to errors. A more guided onboarding or tooltips explaining these differences would enhance learnability.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jordani Alpuche. All rights reserved.</p>
+    </footer>
+</body>
 </html>
